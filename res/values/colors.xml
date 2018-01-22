@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="bg_page">#ffffffff</color>
+	<color name="text_header">#ffff032b</color>
+	<color name="bg_yoil">#ffff6d94</color>
+	<color name="text_yoil">#ffffffff</color>
+	<color name="dayinfo">#ffff0404</color>
+	<color name="menu_header">#ffde0264</color>
+</resources>

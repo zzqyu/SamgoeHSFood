@@ -1,0 +1,170 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.KIMJG.food"
+    android:versionCode="107"
+    android:versionName="2012.12.A" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="splash"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity android:name="setting"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="lunchdinner"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        
+        <activity android:name="d1"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d2"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d3"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d4" 
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d5"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d6"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d7"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d8"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d9"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d10"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d11"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d12"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d13"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d14"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d15"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d16"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d17"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d18"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d19"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d20"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d21"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d22"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d23"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d24"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d25"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d26"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d27"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d28"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d29"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d30"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="d31"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden"></activity>
+        
+        
+        
+        
+        
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" /> 
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
+</manifest>

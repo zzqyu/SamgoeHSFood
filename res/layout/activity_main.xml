@@ -1,0 +1,97 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#222222"
+            android:onClick="infoani" >
+        
+        <ImageView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@drawable/info" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:paddingRight="5dp"
+            android:text="(클릭)"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+        
+        </FrameLayout>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header"
+            android:text="기간별 분류"
+            android:textColor="@color/menu_header"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_list1"
+            android:gravity="left|center_vertical"
+            android:onClick="lunchdinner"
+            android:text="● 중식&amp;석식"
+            android:textColor="#ff222222"
+            android:textColorHint="#ffffffff"
+            android:textSize="20dp" />
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_list1"
+            android:gravity="left|center_vertical"
+            android:onClick="josik"
+            android:text="● 조식 (학교홈)"
+            android:textColor="#ff222222"
+            android:textColorHint="#ffffffff"
+            android:textSize="20dp" />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header"
+            android:text="정보 및 안내"
+            android:textColor="@color/menu_header"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_list1"
+            android:gravity="left|center_vertical"
+            android:onClick="info"
+            android:text="●정보 및 안내"
+            android:textColor="#ff222222"
+            android:textColorHint="#ffffffff"
+            android:textSize="20dp" />
+        
+</LinearLayout>
+
+    <net.daum.adam.publisher.AdView
+        android:id="@+id/adview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@drawable/ads_space"
+        android:visibility="invisible" />
+    
+</FrameLayout>

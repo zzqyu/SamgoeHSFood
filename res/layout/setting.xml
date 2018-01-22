@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header"
+            android:text="알림"
+            android:textColor="@color/menu_header"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info"
+            android:textColor="#ff000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header"
+            android:text="버전명"
+            android:textColor="@color/menu_header"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_list1"
+            android:text="@string/version"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header"
+            android:text="링크"
+            android:textColor="@color/menu_header"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_list1"
+            android:onClick="store"
+            android:text="플레이스토어(마켓) 링크"
+            android:textColor="#ff000000" />
+        
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_list1"
+            android:onClick="blog"
+            android:text="블로그 삼괴고급식표 게시판 링크"
+            android:textColor="#ff000000" />
+    </LinearLayout>
+
+    <net.daum.adam.publisher.AdView
+        android:id="@+id/adview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@drawable/ads_space"
+        android:visibility="invisible" />
+
+</FrameLayout>
+

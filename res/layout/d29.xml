@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_page"
+    android:orientation="vertical" >
+    
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="29일 급식표"
+            android:textColor="#ffffffff"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TableRow android:layout_width="wrap_content" >
+
+                <TextView
+                    android:text="중식"
+                    android:textColor="#ffde0765"
+                    android:textSize="30dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="흑미밥"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="시금치토장국"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="닭바베큐소스조림"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="데침두부+볶은김치"
+                    android:textColor="#ff000000"
+                    android:textSize="18dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="부추오이생채"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="도시락김"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TableRow>
+
+                <TextView
+                    android:text="석식"
+                    android:textColor="#ffde0765"
+                    android:textSize="30dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="기장밥"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="꽃게찌개"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="치즈돈까스"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="어묵야채볶음"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="미역초무침"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="포기김치"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

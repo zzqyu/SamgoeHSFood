@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_page"
+    android:orientation="vertical" >
+    
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 12월 중식·석식"
+        android:textColor="@color/text_header"
+        android:textSize="20dp" />
+    
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_yoil"
+            android:gravity="center"
+            android:text="월"
+            android:textColor="@color/text_yoil" />
+
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_yoil"
+            android:gravity="center"
+            android:text="화"
+            android:textColor="@color/text_yoil" />
+
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_yoil"
+            android:gravity="center"
+            android:text="수"
+            android:textColor="@color/text_yoil" />
+
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_yoil"
+            android:gravity="center"
+            android:text="목"
+            android:textColor="@color/text_yoil" />
+
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_yoil"
+            android:gravity="center"
+            android:text="금"
+            android:textColor="@color/text_yoil" />
+
+    </LinearLayout>
+    
+
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" >
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d3"
+             android:gravity="bottom|left"
+             android:onClick="d3"
+             android:textColor="@color/dayinfo" />
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d4"
+             android:gravity="bottom|left"
+             android:onClick="d4"
+             android:textColor="@color/dayinfo" />
+
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d5"
+             android:gravity="bottom|left"
+             android:onClick="d5"
+             android:text="기말고사"
+             android:textColor="@color/dayinfo" />
+
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d6"
+             android:gravity="bottom|left"
+             android:onClick="d6"
+             android:text="기말고사"
+             android:textColor="@color/dayinfo" />
+
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d7"
+             android:gravity="bottom|left"
+             android:onClick="d7"
+             android:text="기말고사"
+             android:textColor="@color/dayinfo" />
+
+     </LinearLayout>
+    
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" >
+        
+
+
+
+
+
+
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d10"
+             android:gravity="bottom|left"
+             android:onClick="d10"
+             android:textColor="@color/dayinfo" />
+
+
+
+
+
+
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d11"
+             android:gravity="bottom|left"
+             android:onClick="d11"
+             android:textColor="@color/dayinfo" />
+
+
+
+
+
+
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d12"
+             android:gravity="bottom|left"
+             android:onClick="d12"
+             android:textColor="@color/dayinfo" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d13"
+             android:gravity="bottom|left"
+             android:onClick="d13"
+             android:textColor="@color/dayinfo" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d14"
+             android:gravity="bottom|left"
+             android:onClick="d14"
+             android:textColor="@color/dayinfo" />
+
+    </LinearLayout>
+    
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" >
+        
+
+
+
+
+
+
+
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d17"
+             android:gravity="bottom|left"
+             android:onClick="d17"
+             android:textColor="@color/dayinfo" />
+
+
+
+
+
+
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d18"
+             android:gravity="bottom|left"
+             android:onClick="d18"
+             android:textColor="@color/dayinfo" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d19"
+             android:gravity="bottom|left"
+             android:onClick="d19"
+             android:text="대선"
+             android:textColor="@color/dayinfo" />
+
+
+
+
+
+
+
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d20"
+             android:gravity="bottom|left"
+             android:onClick="d20"
+             android:textColor="@color/dayinfo" />
+
+
+
+
+
+
+
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d21"
+             android:gravity="bottom|left"
+             android:onClick="d21"
+             android:textColor="@color/dayinfo" />
+
+    </LinearLayout>
+    
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" >
+        
+
+
+
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d24"
+             android:gravity="bottom|left"
+             android:onClick="d24"
+             android:textColor="@color/dayinfo" />
+
+
+
+
+
+
+
+
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d25"
+             android:gravity="bottom|left"
+             android:onClick="d25"
+             android:text="크리스마스"
+             android:textColor="@color/dayinfo"
+             android:textSize="12dp" />
+
+
+
+
+
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d26"
+             android:gravity="bottom|left"
+             android:onClick="d26"
+             android:textColor="@color/dayinfo" />
+
+
+
+
+
+
+
+
+         <Button
+             android:layout_width="64dp"
+             android:layout_height="wrap_content"
+             android:background="@drawable/d27"
+             android:gravity="bottom|left"
+             android:onClick="d27"
+             android:textColor="@color/dayinfo" />
+
+
+
+
+
+
+
+
+         <Button
+             android:layout_width="64dp"
+             android:layout_height="wrap_content"
+             android:background="@drawable/d28"
+             android:gravity="bottom|left"
+             android:onClick="d28"
+             android:textColor="@color/dayinfo" />
+
+    </LinearLayout>
+    
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" >
+        
+
+
+
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d0"
+             android:gravity="bottom|left"
+             android:textColor="@color/dayinfo" />
+
+
+
+
+
+
+
+
+         <Button
+             android:layout_width="64dp"
+             android:layout_height="wrap_content"
+             android:background="@drawable/d0"
+             android:gravity="bottom|left"
+             android:textColor="@color/dayinfo" />
+
+
+
+
+
+
+
+         <Button
+             android:layout_width="64dp"
+             android:layout_height="wrap_content"
+             android:background="@drawable/d0"
+             android:gravity="bottom|left"
+             android:textColor="@color/dayinfo" />
+         
+
+
+
+
+         <Button
+             android:layout_width="64dp"
+             android:layout_height="wrap_content"
+             android:background="@drawable/d0"
+             android:gravity="bottom|left"
+             android:textColor="@color/dayinfo" />
+         
+
+
+
+
+         <Button
+             android:layout_width="72dp"
+             android:layout_height="72dp"
+             android:background="@drawable/d0"
+             android:gravity="bottom|left"
+             android:textColor="@color/dayinfo" />
+
+    </LinearLayout>
+    
+
+     <TextView 
+    android:id="@+id/getdate"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#ff222222"
+    android:textSize="25dp" />
+
+</LinearLayout>
+
+    <net.daum.adam.publisher.AdView
+        android:id="@+id/adview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@drawable/ads_space"
+        android:visibility="invisible" />
+</FrameLayout>
